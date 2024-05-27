@@ -1,0 +1,155 @@
+h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    font-size: 100%;
+  }
+  body{
+    background-color: beige;
+  }
+  .background {
+    background-image: url('R.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+    
+  }
+  .intro{
+    background-image: url(''); 
+    background-size: cover;
+    background-position: center;
+  }
+
+.main {
+    font-family: Arial, sans-serif;
+    background-image: url('R.jpg'); 
+    background-size: cover; 
+    text-align: center;
+}
+
+
+.table{
+    width:96%;
+}
+
+.photo {
+    width: 300px;
+}
+
+.places{
+    display: flex;
+}
+
+.hplaces{
+    display: flex;
+}
+
+nav {
+    background-color:skyblue;
+}
+
+main{
+    padding: 20px;
+}
+
+
+section {
+    margin-bottom: 30px;
+}
+
+.city {
+    /* max-width: 800px; */
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+}
+
+.city-heading {
+    text-align:left;
+    margin-bottom: 20px;
+    margin-right: 5000px;
+}
+
+
+
+.Seoul {
+    flex: 0 0 30%;
+    margin-right: 20px;
+}
+
+.Seoul{
+    max-width: 100%;
+    height: auto;
+}
+
+.aboutSeoul {
+    flex: 1;
+}
+
+.about{
+    order: 1;
+}
+
+@media screen and (min-width: 960px) {
+    .creds,
+    .place{
+        display: flex;
+        align-items:normal;
+        margin-right:auto;
+    }
+
+    .creds img{
+        margin-left: 500px;
+    }
+    .fav-sub{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about{
+        order: 0;
+    }
+
+}
+
+
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.places > div {
+    width: 300px;
+    margin: 20px;
+}
+
+.photo {
+    max-width: 100%;
+    height: auto;
+}
+
+.hplaces {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: flex-start; 
+}
+
+.hplaces p {
+    text-align: left; 
+    margin: 0 10px;
+}
+ 
+h4 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+
